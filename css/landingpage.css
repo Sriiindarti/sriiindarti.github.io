@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300;400;500;600;700&family=Roboto+Flex:opsz@8..144&display=swap');
+
+:root
+{
+      --mainColor:#270E1D;
+      --white: #fff;
+      --red: #FF4949;
+      --green: #1A5862;
+      --yellow: #FFD37A;
+      --orange: #E29600;
+      --softGrey: #ebebeb;
+}
+
+body{
+      font-family: 'Josefin Slab', serif;
+      padding: 0px 150px;
+      background-color: var(--mainColor);
+}
+
+.contoh{
+      background-color: yellow;
+}
+
+.garis{
+      width: 10%;
+      margin-top: 150px;
+      margin-bottom: 150px;
+      align-items: center;
+      border-radius: 8px;
+      border: 2px solid var(--white);
+      background-color: var(--white);
+}
+
+.marginDiv{
+      margin-top: 156px;
+}
+
+/* ------------- Navbar ------------- */
+.navbar{
+      font-size: 18px;
+      font-weight: bold;
+      background-color: var(--mainColor);  
+}
+
+.nav-item{
+      margin: 16px 24px;
+      color: yellow;
+}
+
+.nav-item .nav-link{
+      color: yellow;
+}
+
+.navbar-nav{
+      padding: 12px 0px;
+}
+
+
+/* ------------- content ------------- */
+.fotoUtama{
+      text-align: center;
+}
+
+.link{
+      text-decoration: none;
+      color: var(--white);
+}
+
+.btn{
+      border: none;
+      border-radius: 8px;
+}
+
+.button1{
+      position: sticky;
+      text-align: center;
+      margin: 10px;
+}
+
+.btn1{
+      background-color: var(--red); 
+      text-align: center;
+      font-weight: 600;
+      font-size: 18px;
+      width: 360px;
+      height: 46px;
+}
+
+.button2{
+      position: sticky;
+      text-align: center;
+      margin: 10px;
+}
+
+.btn2{
+      background-color: var(--green);
+      text-align: center;
+      font-weight: 600;
+      font-size: 18px;
+      width: 360px;
+      height: 46px;
+}
+
+.nama{
+      text-align: center;
+}
+
+.nama h1{
+      font-family: 'NewYork';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 100px;
+      line-height: 80px;
+      margin-top: 24px;
+      color: var(--white);
+}
+
+.nama h2{
+      font-family: 'Josefin Slab';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 18px;
+      letter-spacing: 1px;
+      margin-top: 24px;
+      margin-bottom: 150px;
+      color: var(--white);
+}
+
+.tengah{
+      margin-top: 45px;
+}
+
+.about h1{
+      text-align: center;
+      font-family: 'NewYork';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 88px;
+      line-height: 80px;
+      margin-bottom: 64px;
+      color: var(--white);
+}
+
+.about h4{
+      font-size: 48px;
+      font-weight: bold;
+      color: var(--yellow);
+}
+
+.about h3{
+      font-style: normal;
+      font-weight: 800;
+      font-size: 26px;
+      line-height: 24px;
+      color: var(--white);
+}
+
+.about small{
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 40px;
+      color: var(--orange);
+}
+
+.about p{
+      margin-top: 16px;
+      font-size: 26px;
+      font-weight: 400px;
+      color: var(--white);
+}
+
+.btn3{
+      background-color: var(--red);
+      width: 160px;
+      height: 48px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 18px;
+      border-radius: 8px;
+}
+
+.btn31{
+      background-color: var(--mainColor);
+      width: 160px;
+      height: 48px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 18px;
+      margin-left: 16px;
+      border-radius: 8px;
+      border: 2px solid var(--red);
+}
+
+
+/* ------------- Testimonial ------------- */
+.testimonial{
+      font-size: 40px;
+}
+
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+
+.carousel .carousel-item {
+	color: var(--softGrey);
+	font-size: 14px;
+	text-align: center;
+	overflow: hidden;
+	min-height: 290px;
+}
+
+.carousel .overview {	
+	font-family: 'Josefin Slab';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 18px;
+      margin-top: 72px;
+      margin-bottom: 20px;
+      color: var(--white);
+}
+
+.carousel .job {
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 12px;
+      color: var(--white);
+      margin-bottom: 24px;
+}
+
+.carousel-indicators {
+	bottom: -24px;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 20px;
+	height: 4px;
+	margin: 1px 4px;
+	border-radius: 50px;
+	border: none;
+}
+
+.carousel-indicators li {	
+	background: var(--white);
+	border-color: transparent;
+}
+
+.carousel-indicators li.active {	
+	background: var(--red);		
+}
+
+.footerText{
+      height: 16px;
+      padding: 8px;
+      color: var(--white);
+      margin: 4px;
+}
+
+.iconCss{
+      height: 16px;
+      width: 16px;
+      padding: 8px;
+      color: var(--mainColor);
+      background-color: var(--white);
+      border-radius: 100%;
+      margin: 4px;
+}
+
+.buttonProject{
+      text-align: center;
+      align-items: center;
+      margin-top: 72px;
+}
+
+footer{
+      margin-top: 96px;
+      margin-bottom: 40px;
+}
+
+.footerLeft{
+      text-align: left;
+}
+
+.footerCenter{
+      text-align: center;
+}
+
+.footerRight{
+      text-align: right;
+}
+
+
+/* ------------- Media Queries ------------- */
+@media screen and (max-width: 500px) {
+      body{
+            font-family: 'Josefin Slab', serif;
+            /* font-family: 'Roboto Flex', sans-serif; */
+            padding: 16px 16px;
+            background-color: var(--mainColor);
+      }
+      .garis{
+            border: 2px solid var(--white);
+            border-radius: 8px;
+            background-color: var(--white);
+            width: 15%;
+            align-items: center;
+      }
+
+      img{
+            height: 40px;
+      }
+      .fotoSatu{
+            height: 275px;
+            margin-top: 16px;
+      }
+      .button1{
+            position: sticky;
+            text-align: center;
+            margin: 10px;
+      }
+
+      .btn1{
+            background-color: var(--red);
+            width: 250px;
+            height: 45px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 16px;
+      }
+
+      .button2{
+            position: sticky;
+            text-align: center;
+            margin: 10px;
+      }
+      
+      .btn2{
+            background-color: var(--green);
+            width: 250px;
+            height: 45px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 16px;
+      }
+      
+      .nama h1{
+            font-family: 'NewYork';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 72px;
+            line-height: 80px;
+            margin-top: 24px;
+            color: var(--white);
+      }
+
+      .nama h2{
+            font-family: 'Josefin Slab';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 18px;
+            letter-spacing: 1px;
+            margin-top: 12px;
+            color: var(--white);
+      }
+
+      .about h1{
+            text-align: center;
+            font-family: 'NewYork';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 64px;
+            margin-bottom: 40px;
+            margin-top: 0px;
+            color: var(--white);
+      }
+
+      .about h3{
+            font-style: normal;
+            font-weight: 800;
+            font-size: 26px;
+            line-height: 24px;
+            color: var(--white);
+            margin-bottom: 35px;
+      }
+      
+      .about small{
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 40px;
+            color: var(--yellow);
+      }
+
+      .fotoProject{
+            width: 100%;
+            height: 100%;
+      }
+      .fotoDua{
+            height: 300px;
+      }
+
+      .about h4{
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            color: var(--yellow);
+      }
+      
+      .about p{
+            text-align: center;
+            margin-top: 16px;
+            font-size: 18px;
+            font-weight: 400px;
+            color: var(--white);
+      }
+
+      .buttonDouble{
+            text-align: center;
+      }
+
+      .btn3{
+            background-color: var(--red);
+            width: 130px;
+            height: 48px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 18px;
+            border-radius: 8px;
+      }
+      
+      .btn31{
+            background-color: var(--mainColor);
+            width: 130px;
+            height: 48px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 18px;
+            margin-left: 16px;
+            border-radius: 8px;
+            border: 2px solid var(--red);
+      }
+
+      .fotoTiga{
+            height: 250px;
+            margin-top: -70px;
+      }
+
+      .buttonProject{
+            text-align: center;
+            align-items: center;
+            margin-top: 24px;
+      }
+
+      .testimonial{
+            font-size: 28px;
+      }
+
+      .carousel .overview {	
+            font-family: 'Josefin Slab';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 18px;
+            margin-top: 72px;
+            margin-bottom: 20px;
+            color: var(--white);
+      }
+      
+      .carousel .job {
+            font-weight: 200;
+            font-size: 13px;
+            line-height: 12px;
+            color: var(--white);
+            margin-bottom: 24px;
+      }
+
+      .footerLeft{
+            text-align: center;
+            margin-top: 16px;
+      }
+      
+      .footerCenter{
+            text-align: center;
+            margin-top: 24px;
+      }
+      
+      .footerRight{
+            text-align: center;
+            margin-top: 32px;
+      }
+}
