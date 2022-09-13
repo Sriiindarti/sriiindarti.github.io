@@ -347,7 +347,7 @@ footer{
       .nama h1{
             font-family: 'Josefin Slab';
             font-style: normal;
-            font-weight: 400;
+            font-weight: 700;
             font-size: 72px;
             line-height: 80px;
             margin-top: 24px;
@@ -360,7 +360,7 @@ footer{
             font-weight: 400;
             font-size: 22px;
             line-height: 18px;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
             margin-top: 12px;
             color: var(--white);
       }
