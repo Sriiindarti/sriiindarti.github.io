@@ -300,12 +300,15 @@ footer{
             padding: 16px 16px;
             background-color: var(--mainColor);
       }
+      
       .garis{
-            border: 2px solid var(--white);
-            border-radius: 8px;
-            background-color: var(--white);
-            width: 15%;
+            width: 10%;
+            margin-top: 96px;
+            margin-bottom: 96px;
             align-items: center;
+            border-radius: 8px;
+            border: 2px solid var(--white);
+            background-color: var(--white);
       }
 
       img{
@@ -313,7 +316,7 @@ footer{
       }
       .fotoSatu{
             height: 275px;
-            margin-top: 16px;
+            margin-top: 24px;
       }
       .button1{
             position: sticky;
