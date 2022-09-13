@@ -106,9 +106,10 @@ body{
 }
 
 .nama h1{
+      text-align: center;
       font-family: 'Josefin Slab';
       font-style: normal;
-      font-weight: 700;
+      font-weight: 600;
       font-size: 100px;
       line-height: 80px;
       margin-top: 32px;
@@ -345,9 +346,10 @@ footer{
       }
       
       .nama h1{
+            text-align: center;
             font-family: 'Josefin Slab';
             font-style: normal;
-            font-weight: bold;
+            font-weight: 600;
             font-size: 72px;
             line-height: 80px;
             margin-top: 24px;
