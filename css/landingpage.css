@@ -106,12 +106,12 @@ body{
 }
 
 .nama h1{
-      font-family: 'NewYork';
+      font-family: 'Josefin Slab';
       font-style: normal;
-      font-weight: 400;
+      font-weight: 700;
       font-size: 100px;
       line-height: 80px;
-      margin-top: 24px;
+      margin-top: 32px;
       color: var(--white);
 }
 
@@ -121,7 +121,7 @@ body{
       font-weight: 400;
       font-size: 32px;
       line-height: 18px;
-      letter-spacing: 1px;
+      letter-spacing: 1.5px;
       margin-top: 24px;
       margin-bottom: 150px;
       color: var(--white);
@@ -133,9 +133,9 @@ body{
 
 .about h1{
       text-align: center;
-      font-family: 'NewYork';
+      font-family: 'Josefin Slab';
       font-style: normal;
-      font-weight: 400;
+      font-weight: 600;
       font-size: 88px;
       line-height: 80px;
       margin-bottom: 64px;
@@ -144,7 +144,7 @@ body{
 
 .about h4{
       font-size: 48px;
-      font-weight: bold;
+      font-weight: 600;
       color: var(--yellow);
 }
 
@@ -296,7 +296,6 @@ footer{
 @media screen and (max-width: 500px) {
       body{
             font-family: 'Josefin Slab', serif;
-            /* font-family: 'Roboto Flex', sans-serif; */
             padding: 16px 16px;
             background-color: var(--mainColor);
       }
@@ -346,7 +345,7 @@ footer{
       }
       
       .nama h1{
-            font-family: 'NewYork';
+            font-family: 'Josefin Slab';
             font-style: normal;
             font-weight: 400;
             font-size: 72px;
@@ -368,10 +367,10 @@ footer{
 
       .about h1{
             text-align: center;
-            font-family: 'NewYork';
+            font-family: 'Josefin Slab';
             font-style: normal;
-            font-weight: 400;
-            font-size: 64px;
+            font-weight: 600;
+            font-size: 60px;
             line-height: 64px;
             margin-bottom: 40px;
             margin-top: 0px;
@@ -405,7 +404,7 @@ footer{
       .about h4{
             text-align: center;
             font-size: 40px;
-            font-weight: bold;
+            font-weight: 600;
             color: var(--yellow);
       }
       
