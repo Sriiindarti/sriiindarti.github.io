@@ -63,6 +63,23 @@ footer{
       margin-bottom: 40px;
 }
 
+.footerText{
+      height: 16px;
+      padding: 8px;
+      color: var(--white);
+      margin: 4px;
+}
+
+.iconCss{
+      height: 16px;
+      width: 16px;
+      padding: 8px;
+      color: var(--mainColor);
+      background-color: var(--white);
+      border-radius: 100%;
+      margin: 4px;
+}
+
 .footerLeft{
       text-align: left;
 }
@@ -74,6 +91,7 @@ footer{
 .footerRight{
       text-align: right;
 }
+
 
 
 /* ------------- Media Queries ------------- */
