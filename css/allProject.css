@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300;400;500;600;700&family=Roboto+Flex:opsz@8..144&display=swap');
+
+:root
+{
+      --mainColor:#270E1D;
+      --white: #fff;
+      --red: #FF4949;
+      --green: #1A5862;
+      --yellow: #FFD37A;
+      --orange: #E29600;
+      --softGrey: #ebebeb;
+}
+
+body{
+      font-family: 'Josefin Slab', serif;
+      padding: 0px 150px;
+      background-color: var(--mainColor);
+}
+
+.contoh{
+      background-color: yellow;
+}
+
+.garis{
+      width: 10%;
+      margin-top: 150px;
+      margin-bottom: 150px;
+      align-items: center;
+      border-radius: 8px;
+      border: 2px solid var(--white);
+      background-color: var(--white);
+}
+
+.marginDiv{
+      margin-top: 156px;
+}
+
+/* ------------- Navbar ------------- */
+.navbar{
+      font-size: 18px;
+      font-weight: bold;
+      background-color: var(--mainColor);  
+}
+
+.nav-item{
+      margin: 16px 24px;
+      color: yellow;
+}
+
+.nav-item .nav-link{
+      color: yellow;
+}
+
+.navbar-nav{
+      padding: 12px 0px;
+}
+
+
+/* ------------- Footer ------------- */
+footer{
+      margin-top: 96px;
+      margin-bottom: 40px;
+}
+
+.footerLeft{
+      text-align: left;
+}
+
+.footerCenter{
+      text-align: center;
+}
+
+.footerRight{
+      text-align: right;
+}
+
+
+/* ------------- Media Queries ------------- */
+@media screen and (max-width: 500px) {
+      body{
+            font-family: 'Josefin Slab', serif;
+            padding: 16px 16px;
+            background-color: var(--mainColor);
+      }
+
+      .garis{
+            width: 10%;
+            margin-top: 96px;
+            margin-bottom: 96px;
+            align-items: center;
+            border-radius: 8px;
+            border: 2px solid var(--white);
+            background-color: var(--white);
+      }
+
+      .footerLeft{
+            text-align: center;
+            margin-top: 16px;
+      }
+      
+      .footerCenter{
+            text-align: center;
+            margin-top: 24px;
+      }
+      
+      .footerRight{
+            text-align: center;
+            margin-top: 32px;
+      }
+}
