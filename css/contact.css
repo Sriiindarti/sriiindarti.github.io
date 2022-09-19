@@ -32,8 +32,11 @@ body{
 }
 
 .marginDiv{
-      margin-top: 156px;
+      margin-top: 132px;
+      margin-bottom: 135px;
 }
+
+
 
 /* ------------- Navbar ------------- */
 .navbar{
@@ -54,6 +57,61 @@ body{
 .navbar-nav{
       padding: 12px 0px;
 }
+
+.about h1{
+      text-align: center;
+      font-family: 'Josefin Slab';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 88px;
+      line-height: 80px;
+      margin-bottom: 64px;
+      color: var(--white);
+}
+
+.about h4{
+      font-size: 48px;
+      font-weight: 600;
+      color: var(--yellow);
+}
+
+.about h3{
+      font-style: normal;
+      font-weight: 800;
+      font-size: 26px;
+      line-height: 24px;
+      color: var(--white);
+}
+
+.about small{
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 40px;
+      color: var(--orange);
+}
+
+.about p{
+      margin-top: 16px;
+      font-size: 26px;
+      font-weight: 400px;
+      color: var(--white);
+}
+
+
+.icon{
+      height: 32px;
+      width: 32px;
+      padding: 12px;
+      color: var(--white);
+      /* background-color: var(--white); */
+      border-radius: 100%;
+      margin-bottom: 20px;
+      border: dashed 2.5px var(--yellow);
+}
+
+
+
+
 
 
 
@@ -114,6 +172,61 @@ footer{
             border: 2px solid var(--white);
             background-color: var(--white);
       }
+
+      .about h1{
+            text-align: center;
+            font-family: 'Josefin Slab';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 60px;
+            line-height: 64px;
+            margin-bottom: 40px;
+            margin-top: 0px;
+            color: var(--white);
+      }
+
+      .about h3{
+            font-style: normal;
+            font-weight: 800;
+            font-size: 26px;
+            line-height: 24px;
+            color: var(--white);
+            margin-bottom: 35px;
+      }
+      
+      .about small{
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 40px;
+            color: var(--yellow);
+      }
+
+      .about h4{
+            text-align: center;
+            font-size: 40px;
+            font-weight: 600;
+            color: var(--yellow);
+      }
+      
+      .about p{
+            text-align: center;
+            margin-top: 16px;
+            font-size: 18px;
+            font-weight: 400px;
+            color: var(--white);
+      }
+
+      .icon{
+            height: 28px;
+            width: 28px;
+            padding: 12px;
+            color: var(--white);
+            border-radius: 100%;
+            margin-bottom: 16px;
+            margin-top: 16px;
+            border: dashed 2.5px var(--yellow);
+      }
+
 
       .footerLeft{
             text-align: center;
