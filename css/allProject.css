@@ -404,6 +404,7 @@ footer{
             text-align: center;
             font-size: 40px;
             font-weight: 600;
+            margin-top: 24px;
             color: var(--white);
       }
       
