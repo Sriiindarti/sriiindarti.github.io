@@ -127,6 +127,13 @@ body{
       font-weight: normal;
 }
 
+.about .judulEdu2{
+      margin-top: 16px;
+      font-size: 20px;
+      font-weight: 400px;
+      color: var(--yellow);
+}
+
 .contentKhusus{
       padding: 0px 8px;
 }
@@ -351,6 +358,13 @@ footer{
             color: var(--white);
       }
       
+      .about .judulEdu2{
+            text-align: center;
+            margin-top: 24px;
+            font-size: 16px;
+            font-weight: 400px;
+            color: var(--yellow);
+      }
 
       .footerLeft{
             text-align: center;
@@ -405,8 +419,8 @@ footer{
       .toolsSkill{
             text-align: center;
             padding: 8px;
-            margin: 8px;
-            width: 25%;
+            margin: 6px;
+            width: 24%;
             border-radius: 8px;
             background: rgba(255, 255, 255, 0.15);
       }
@@ -414,16 +428,17 @@ footer{
       .toolsSkill2{
             text-align: center;
             padding: 8px;
-            margin: 8px;
-            width: 30%;
+            margin: 6px;
+            width: 32%;
             border-radius: 8px;
             background: rgba(255, 255, 255, 0.15);
       }
       
       .toolsSkill3{
             text-align: center;
+            align-items: center;
             padding: 8px;
-            margin: 8px;
+            margin: 6px;
             width: 50%;
             border-radius: 8px;
             background: rgba(255, 255, 255, 0.15);
