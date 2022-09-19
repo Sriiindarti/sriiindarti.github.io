@@ -163,6 +163,11 @@ footer{
             height: 40px;
       }
 
+      .marginDiv{
+            margin-top: 64px;
+            margin-bottom: 120px;
+      }
+
       .garis{
             width: 10%;
             margin-top: 96px;
