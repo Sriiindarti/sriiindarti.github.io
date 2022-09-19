@@ -213,6 +213,20 @@ body{
       border: 2px solid var(--softGrey);
 }
 
+.btn32{
+      background-color: var(--red);
+      width: 160px;
+      height: 48px;
+      text-align: center;
+      margin-top: 3%;
+      margin-bottom: 3%;
+      font-weight: 600;
+      font-size: 18px;
+      border-radius: 8px;
+      border: none;
+      margin-left: 20px;
+}
+
 /* ------------- Footer ------------- */
 footer{
       margin-top: 96px;
@@ -404,9 +418,10 @@ footer{
             border-radius: 8px;
       }
       
-      .btn31{
+
+      .btn32{
             text-align: center;
-            background-color: #2A1926;
+            background-color: var(--red);
             width: 160px;
             height: 48px;
             text-align: center;
@@ -415,7 +430,8 @@ footer{
             font-weight: 600;
             font-size: 18px;
             border-radius: 8px;
-            border: 2px solid var(--softGrey);
+            border: none;
+            margin-left: 0px;
       }
 
       .toolsSkill{
