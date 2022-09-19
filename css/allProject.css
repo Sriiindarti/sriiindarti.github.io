@@ -122,8 +122,8 @@ body{
 }
 
 .about p{
-      margin-top: 16px;
-      font-size: 26px;
+      margin-top: 12px;
+      font-size: 25.5px;
       font-weight: 400px;
       color: var(--white);
 }
@@ -307,7 +307,7 @@ footer{
       }
 
       .marginRow{
-            margin-bottom: 80px;
+            margin-bottom: 64px;
       }
 
       .buttonPanah{
