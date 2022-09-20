@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+      <link href="css/siinBerbagi.css" rel="stylesheet" type="text/css" media="screen" />
+
+      <title>Siin Berbagi</title>
+</head>
+
+<body>
+      <div class="about marginDiv">
+
+            <form>
+                  <label class="form-label" for="webName">Website Name</label>
+                  <input class="form-control" type="text" name="webName" id="webName" required>
+
+                  <label class="form-label" for="link">Link</label>
+                  <input class="form-control" type="text" name="link" id="link" required>
+
+                  <label class="form-label" for="category">Category</label>
+                  <input class="form-control" type="text" name="category" id="category" required>
+
+                  <button id="addBtn" class="btn btn-primary mt-5">Add</button>
+                  <button id="updateBtn" class="btn btn-success mt-5">Update</button>
+                  <button id="removeBtn" class="btn btn-danger mt-5">Delete</button>
+                  <button id="removeBtn" class="btn btn-warning mt-5">Clear</button>
+            </form>
+      </div>
+
+      
+      <!-- <div class="col-12 about">
+            <table id="tabel-data" class="table table-striped table-bordered table-hover">
+                  <thead>
+                        <tr>
+                              <th colspan="4" style="background-color: #1A5862;">
+                                    Website List
+                              </th>
+                        </tr>
+                        <tr>
+                              <th>No</th>
+                              <th>Website Name</th>
+                              <th>Link  ddgagashhgdsggshghsgfghsgfgsfsgsg</th>
+                              <th>Category</th>
+                        </tr>
+                  </thead>
+
+                  <tbody>
+                        Untuk Tamplate data dari firebase
+                  </tbody>
+            </table>
+      </div> --> -->
+
+
+
+
+
+
+      <!-- -------------------------------FIREBASE------------------------------- -->
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.5/firebase-app.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.5/firebase-database.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.5/firebase-firestore.min.js"></script>
+
+      <!-- -------------------------------FIREBASE------------------------------- -->
+
+
+      <!-- -----------------------------CONFIGURATION----------------------------- -->
+
+      <script src="configuration/config.js"></script>
+      <script src="js/funtion.js"></script>
+
+      <!-- -----------------------------CONFIGURATION----------------------------- -->
+
+
+</body>
+
+</html>

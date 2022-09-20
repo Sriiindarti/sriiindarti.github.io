@@ -145,6 +145,10 @@ body{
       color: var(--yellow);
 }
 
+label{
+      color: white;
+}
+
 .contentKhusus{
       padding: 0px 8px;
 }
