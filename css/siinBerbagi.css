@@ -114,6 +114,9 @@ body{
       color: var(--mainColor);
 }
 
+.about th{
+      color: var(--white);
+}
 
 .about small{
       font-weight: 700;
