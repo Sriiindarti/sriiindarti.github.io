@@ -32,7 +32,11 @@ body{
 }
 
 .marginDiv{
-      margin-top: 156px;
+      margin-top: 100px;
+}
+
+.marginKhusus{
+      margin-top: 32px;
 }
 
 /* ------------- Navbar ------------- */
@@ -56,7 +60,193 @@ body{
 }
 
 
+/* ------------- Content ------------- */
+.tengah{
+      margin-top: 30px;
+}
 
+.about h1{
+      text-align: center;
+      font-family: 'Josefin Slab';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 88px;
+      line-height: 80px;
+      margin-bottom: 64px;
+      color: var(--white);
+}
+
+.about h2{
+      font-family: 'Josefin Slab';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 58px;
+      line-height: 80px;
+      margin-bottom: 64px;
+      color: var(--yellow);
+}
+
+.about h4{
+      font-size: 40px;
+      font-weight: 600;
+      color: var(--yellow);
+}
+
+.about h3{
+      font-style: normal;
+      font-weight: 800;
+      font-size: 26px;
+      line-height: 24px;
+      color: var(--white);
+}
+
+.about h6{
+      font-size: 16px;
+      font-weight: 400;
+      color: var(--mainColor);
+}
+
+.about h5{
+      text-align: center;
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--mainColor);
+}
+
+
+.about small{
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 40px;
+      color: var(--orange);
+}
+
+.about p{
+      margin-top: 16px;
+      font-size: 24px;
+      font-weight: 400px;
+      color: var(--white);
+}
+
+.about .location{
+      font-size: 18px;
+      color: var(--white);
+      font-weight: normal;
+}
+
+.about .judulEdu2{
+      margin-top: 16px;
+      font-size: 20px;
+      font-weight: 400px;
+      color: var(--yellow);
+}
+
+.contentKhusus{
+      padding: 0px 8px;
+}
+
+.toolsSkill{
+      text-align: center;
+      padding: 8px;
+      margin: 8px;
+      width: 15%;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.15);
+}
+
+.toolsSkill2{
+      text-align: center;
+      padding: 8px;
+      margin: 8px;
+      width: 20%;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.15);
+}
+
+.toolsSkill3{
+      text-align: center;
+      padding: 8px;
+      margin: 8px;
+      width: 28%;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.15);
+}
+
+
+.fotoPromo{
+      text-align: center;
+      align-items: center;
+}
+
+.promotion{
+      padding: 24px;
+      border-radius: 8px;
+      background: linear-gradient(91.05deg, #313139 -7.7%, #270E1D 114.5%, #270E1D 114.5%);
+}
+
+.interesy{
+      font-weight: 600;
+      font-size: 32px;
+      color: var(--white);
+      line-height: 32px;
+      margin-top: 3%;
+      margin-bottom: 3%;
+}
+
+.btn3{
+      background-color: var(--red);
+      width: 160px;
+      height: 48px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 18px;
+      margin-left: 16px;
+      margin-top: 3%;
+      margin-bottom: 3%;
+      border-radius: 8px;
+      border: none;
+}
+
+.btn31{
+      background-color: #2A1926;
+      width: 160px;
+      height: 48px;
+      text-align: center;
+      margin-top: 3%;
+      margin-bottom: 3%;
+      font-weight: 600;
+      font-size: 18px;
+      border-radius: 8px;
+      border: 2px solid var(--softGrey);
+}
+
+.btn32{
+      background-color: var(--red);
+      width: 160px;
+      height: 48px;
+      text-align: center;
+      margin-top: 3%;
+      margin-bottom: 3%;
+      font-weight: 600;
+      font-size: 18px;
+      border-radius: 8px;
+      border: none;
+      margin-left: 20px;
+}
+
+.card{
+      margin-top: 10px;
+}
+
+.about .interesy{
+      font-weight: 600;
+      font-size: 32px;
+      color: var(--white);
+      line-height: 32px;
+      margin-top: 3%;
+      margin-bottom: 3%;
+}
 /* ------------- Footer ------------- */
 footer{
       margin-top: 96px;
@@ -93,6 +283,7 @@ footer{
 }
 
 
+
 /* ------------- Media Queries ------------- */
 @media screen and (max-width: 500px) {
       body{
@@ -101,6 +292,13 @@ footer{
             background-color: var(--mainColor);
       }
 
+      .marginKhusus{
+            margin-top: 16px;
+      }
+      
+      .marginDiv{
+            margin-top: 64px;
+      }
       .garis{
             width: 10%;
             margin-top: 96px;
@@ -111,10 +309,114 @@ footer{
             background-color: var(--white);
       }
 
+      .card{
+            margin-top: 20px;
+      }
+
       img{
             height: 40px;
+            font-size: 0px;
+      }
+
+      .about img{
+            width: 100%;
+            height: 100%;
+      }
+
+      .about .location{
+            text-align: center;
+            align-items: center;
+            font-size: 18px;
+            color: var(--white);
+            font-weight: normal;
+      }
+
+      .about h1{
+            text-align: center;
+            font-family: 'Josefin Slab';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 60px;
+            line-height: 64px;
+            margin-bottom: 40px;
+            margin-top: 0px;
+            color: var(--white);
+      }
+
+      .about h2{
+            text-align: center;
+            font-family: 'Josefin Slab';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 58px;
+            line-height: 80px;
+            margin-bottom: 32px;
+            color: var(--yellow);
+      }
+
+      .about h3{
+            font-style: normal;
+            font-weight: 800;
+            font-size: 26px;
+            line-height: 24px;
+            color: var(--white);
+            margin-bottom: 35px;
       }
       
+      .about h6{
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+            color: var(--mainColor);
+      }
+
+      .about small{
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 40px;
+            color: var(--yellow);
+      }
+
+      .fotoProject{
+            width: 100%;
+            height: 100%;
+      }
+      .fotoTiga{
+            height: 350px;
+            margin-top: 40px;
+      }
+
+      .about h4{
+            text-align: center;
+            font-size: 40px;
+            font-weight: 600;
+            color: var(--yellow);
+      }
+      
+      .about p{
+            text-align: center;
+            margin-top: 16px;
+            font-size: 18px;
+            font-weight: 400px;
+            color: var(--white);
+      }
+
+      .about .judulEdu{
+            text-align: center;
+            margin-top: 16px;
+            font-size: 20px;
+            font-weight: 400px;
+            color: var(--white);
+      }
+      
+      .about .judulEdu2{
+            text-align: center;
+            margin-top: 24px;
+            font-size: 16px;
+            font-weight: 400px;
+            color: var(--yellow);
+      }
+
       .footerLeft{
             text-align: center;
             margin-top: 16px;
@@ -128,5 +430,76 @@ footer{
       .footerRight{
             text-align: center;
             margin-top: 32px;
+      }
+
+      .fotoemmpat{
+            height: 275px;
+            margin-top: 40px;
+      }
+
+      .btn3{
+            text-align: center;
+            background-color: var(--red);
+            width: 160px;
+            height: 48px;
+            text-align: center;
+            margin-top: 3%;
+            margin-bottom: 3%;
+            font-weight: 600;
+            font-size: 18px;
+            border-radius: 8px;
+      }
+      
+
+      .btn32{
+            text-align: center;
+            background-color: var(--red);
+            width: 160px;
+            height: 48px;
+            text-align: center;
+            margin-top: 3%;
+            margin-bottom: 3%;
+            font-weight: 600;
+            font-size: 18px;
+            border-radius: 8px;
+            border: none;
+            margin-left: 0px;
+      }
+
+      .toolsSkill{
+            text-align: center;
+            padding: 8px;
+            margin: 6px;
+            width: 24%;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.15);
+      }
+      
+      .toolsSkill2{
+            text-align: center;
+            padding: 8px;
+            margin: 6px;
+            width: 32%;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.15);
+      }
+      
+      .toolsSkill3{
+            text-align: center;
+            align-items: center;
+            padding: 8px;
+            margin: 6px;
+            width: 50%;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.15);
+      }
+
+      .skilltengah{
+            align-items: center;
+            text-align: center;
+      }
+
+      .promo{
+            text-align: center;
       }
 }
