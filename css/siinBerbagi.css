@@ -242,6 +242,18 @@ label{
       margin-left: 20px;
 }
 
+.btn33{
+      background-color: var(--yellow);
+      color: var(--mainColor);
+      width: 225px;
+      height: 64px;
+      text-align: center;
+      font-weight: 800;
+      font-size: 20px;
+      border-radius: 8px;
+      border: none;
+}
+
 .card{
       margin-top: 10px;
 }
