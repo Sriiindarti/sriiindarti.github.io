@@ -1,3 +1,9 @@
+<?php
+      require_once "koneksi.php";
+      $sql = "SELECT*FROM berbagi WHERE category in('color','generator','tool')";
+      $result = mysqli_query($con,$sql);
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -12,7 +18,7 @@
 
       <link href="css/siinBerbagi.css" rel="stylesheet" type="text/css" media="screen" />
 
-      <title>Ilustration Resources</title>
+      <title>Color, Tools, Generator</title>
 </head>
 
 <body>
@@ -39,18 +45,27 @@
 
 
       <div class="about marginDiv mb-5" style="text-align: center;">
-            <h4>ILUSTRATION WEBSITE</h4>
+            <h4>COLOR, TOOLS AND GENERATOR WEBSITE</h4>
       </div>
 
       <div class="col-12 about">
             <table id="tabel-data" class="table table-striped table-bordered table-hover">
                   <thead>
-                        <tr style="background-color: #1A5862">
-                              <th>No</th>
+                        <tr style="background-color: #1A5862; text-align: center;">
+                              <th>Review</th>
                               <th>Website Name</th>
                               <th>Link Website</th>
                               <th>Category</th>
                         </tr>
+
+                        <?php while ($data = mysqli_fetch_row($result)): ?>
+                        <tr style="color: #ffffff; font-style: normal;font-weight: 600;">
+                              <td style="text-align: center;"><input type="checkbox"></td>
+                              <td><?php echo $data[1]; ?></td>
+                              <td><a href="<?php echo $data[2]; ?>"><?php echo $data[2]; ?></a></td>
+                              <td style="text-transform: capitalize; text-align: center;"><?php echo $data[3]; ?></td>
+                        </tr>
+                        <?php endwhile; ?>
                   </thead>
             </table>
       </div>
@@ -61,7 +76,7 @@
             <hr color="white" />
             <div class="row">
                   <div class="col-lg-4 footerLeft">
-                        <p class="footerText">© 2021 - 2022 Sri Indarti</p>
+                        <p class="footerText">© 2021 - 2023 Sri Indarti</p>
                   </div>
                   <div class="col-lg-4 footerCenter">
                         <p class="footerText">KEEP A SMILE ON YOUR FACE</p>
@@ -107,3 +122,4 @@
 </body>
 
 </html>
+
