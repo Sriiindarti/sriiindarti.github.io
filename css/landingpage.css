@@ -101,6 +101,22 @@ body{
       height: 46px;
 }
 
+.button3q{
+      position: sticky;
+      text-align: center;
+      margin: 10px;
+}
+
+.btn3q{
+      background-color: #F3FA90;
+      color: #270E1D;
+      text-align: center;
+      font-weight: 600;
+      font-size: 18px;
+      width: 360px;
+      height: 46px;
+}
+
 .nama{
       text-align: center;
 }
@@ -315,9 +331,15 @@ footer{
             height: 40px;
       }
       .fotoSatu{
-            height: 275px;
+            height: 310px;
             margin-top: 24px;
       }
+
+      .fotoSatuu{
+            width: 310px;
+            margin-top: 24px;
+      }
+
       .button1{
             position: sticky;
             text-align: center;
@@ -347,6 +369,22 @@ footer{
             font-weight: 600;
             font-size: 16px;
       }
+
+      .button3q{
+            position: sticky;
+            text-align: center;
+            margin: 10px;
+      }
+      
+      .btn3q{
+            background-color: #F3FA90;
+            color: #270E1D;
+            width: 250px;
+            height: 45px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 16px;
+      }
       
       .nama h1{
             text-align: center;
@@ -364,7 +402,7 @@ footer{
             font-style: normal;
             font-weight: 400;
             font-size: 22px;
-            line-height: 18px;
+            line-height: 40px;
             letter-spacing: 1.5px;
             margin-top: 12px;
             color: var(--white);
